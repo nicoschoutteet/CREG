@@ -7,6 +7,7 @@
 theme_CREG <- function () {
   theme_classic() %+replace%
     theme(text = element_text(size = 10),
+          plot.margin = margin(.2, .2, .2, .2, "cm"),
           plot.title = element_text(size = rel(1.1),
                                     hjust = 0,
                                     colour = "#00B0B9"),
