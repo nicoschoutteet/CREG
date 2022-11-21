@@ -12,7 +12,7 @@ theme_CREG <- function () {
                                     colour = "#00B0B9"),
           plot.subtitle = element_text(size = rel(.9),
                                        hjust = 0,
-                                       margin = margin(0, 0, 1, 0, "cm")),
+                                       margin = margin(0, 0, .5, 0, "cm")),
           plot.title.position = "plot",
           plot.caption = element_text(size = rel(.7),
                                       hjust = 0, margin = margin(0,0, 0.1, 0, "cm")),
