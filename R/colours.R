@@ -1,0 +1,15 @@
+#' CREG colour palette
+
+CREG_blue1 = "#00B0B9"
+CREG_blue2 = "#005F83"
+CREG_blue3 = "#002D72"
+CREG_blue3 = "#00A9E0"
+CREG_purple = "#485CC7"
+CREG_green = "#78D64B"
+CREG_yellow = "#EFDF00"
+CREG_orange = "#FF8200"
+CREG_pink = "#FB637E"
+CREG_red = "#C5003E"
+CREG_grey1 = "#C8C9C7"
+CREG_grey2 = "#75787B"
+CREG_black = "#111111"
