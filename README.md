@@ -3,7 +3,7 @@ Apply a custom, consistent theme to ggplot2 figures in line with CREG visual gui
 
 The included functions turn the following standard ggplot2 output:
 
-```{r, echo = TRUE}
+```{r, echo = FALSE}
 ggplot(data = mpg,
        mapping = aes(x = cty, y = hwy)) +
   geom_point() +
