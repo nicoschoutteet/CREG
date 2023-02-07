@@ -18,7 +18,7 @@ theme_CREG <- function () {
           plot.caption = element_text(size = rel(.6),
                                       hjust = 0, margin = margin(0,0, 0.1, 0, "cm")),
           plot.caption.position = "plot",
-          plot.margin = margin(.2, .2, .2, .2, "cm"),
+          plot.margin = margin(.2, 1, .2, .2, "cm"),
           legend.position = "bottom",
           legend.title = element_text(size = rel(.8),
                                       face = "bold"),
