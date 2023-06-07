@@ -1,6 +1,6 @@
 #' theme_CREG()
 #'
-#' @return
+#' @return a theme function for ggplot2
 #' @export
 #' @import ggplot2
 
