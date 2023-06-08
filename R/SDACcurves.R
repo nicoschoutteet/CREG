@@ -20,8 +20,7 @@ SDAC_curves <- function(BiddingZone, Date, HourNumber) {
   sftp_con <- sftp::sftp_connect(server = "ftp.epexspot.com",
                                  folder = paste0("/", BiddingZone, "/Day-Ahead Auction/Hourly/Current/Aggregated curves"),
                                  username = "sas.dwh_at_creg.be",
-                                 password = "Zh39b5daYu4jkyAJ",
-                                 protocol = "sftp://",
+                                 password = Sys.getenv("EPEX_ftp_pw"),
                                  port = 22,
                                  timeout = 60)
 
