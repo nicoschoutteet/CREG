@@ -7,7 +7,7 @@
 theme_CREG()
 }
 \value{
-a theme function for ggplot2
+
 }
 \description{
 theme_CREG()
