@@ -25,6 +25,8 @@ theme_CREG <- function () {
           legend.key.size = unit(.25, "cm"),
           axis.title = element_text(size = rel(.8)),
           axis.text = element_text(size = rel(.8)),
+          axis.line = element_blank(),
+          axis.ticks = element_blank(),
           panel.grid.major = element_line(size = 0.25,
                                           color = "grey",
                                           linetype = "dotted"))
