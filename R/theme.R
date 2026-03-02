@@ -27,6 +27,7 @@ theme_CREG <- function () {
           axis.text.x = element_text(size = rel(.8),
                                      margin = margin(.2, 0, 0, 0, "cm")),
           axis.text.y = element_text(size = rel(.8),
+                                     hjust = 1,
                                     margin = margin(0, .2, 0, 0, "cm")),
           axis.line = element_blank(),
           axis.ticks = element_blank(),
